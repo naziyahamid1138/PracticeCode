@@ -1,14 +1,16 @@
-
-    public class Main {
+public class Main {
     public static void main(String[] args) {
-        Book b = new Book(101, "Java Basics", "John", 500);
- // b.setBookID(102);
-        b.display();
-        b.displayTax(1000);
-        b.displayTax();
-        b.setBookID(102);
 
-        System.out.println("Updated Book ID: " + b.getBookID());
+        int arr [] = {12, 45, 28, 60, 15, 33};
+
+        int count = 0;
+
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] < 30) {
+                count++;
+            }
+        }
+
+        System.out.println("Numbers less than 30 = " + count);
     }
 }
-
