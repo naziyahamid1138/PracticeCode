@@ -1,17 +1,3 @@
-<<<<<<< HEAD
-public class Main {
-    public static void main(String[] args) {
-        Dog d = new Dog("Tommy");
-        d.sleep();
-        d.sound();
-
-        Cat c = new Cat("Kitty");
-        c.sleep();
-        c.sound();
-    }
-
-}
-=======
 
     public class Main {
     public static void main(String[] args) {
@@ -26,4 +12,3 @@ public class Main {
     }
 }
 
->>>>>>> 7174220e1dade00c3e6b42d53214d4b7accdf754
